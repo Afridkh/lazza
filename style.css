@@ -1,0 +1,258 @@
+
+@font-face
+{
+    font-family: OpenSans;
+    src: url(./images/OpenSans_Condensed-Light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #000;
+    width: 100%;
+    height: 96px;
+    display: flex;
+    font-family:  sans-serif;
+    font-weight: lighter;
+    position: sticky;
+    top: 0;
+    
+}
+
+.logo{
+    width: 50%;
+}
+
+.navigation-bar{
+    width: 50%;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.logo img{
+    width: 120px;
+    margin-left: 63px;
+    margin-top: 15px;
+}
+
+.navigation-bar .ul-nav a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-family: OpenSans;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navigation-bar .ul-nav ul{
+    display: flex;
+    list-style: none;
+   
+}
+
+.ul-nav li{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.ul-nav{
+    margin-right: 20px;
+}
+
+.icons{
+    
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icons img{
+    width: 23px;
+    margin-right: 20px;
+}
+
+.icons a{
+    margin-top:7px ;
+}
+
+main .section-1 img{
+    width: 100%;
+}
+
+.product-heading{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 0 50px 0;
+}
+
+.product-heading h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.products .column img{
+    width: 370px;
+}
+.products .row1{
+    display: flex;
+    justify-content: center;
+}
+.products .row2{
+    display: flex;
+    justify-content: center;
+}
+.products .row3{
+    display: flex;
+    margin-left: 365px;
+}
+.products h3{
+    font-family: OpenSans;
+    color: #212529;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.products a{
+    text-decoration: none;
+}
+
+.products .column{
+    padding: 15px;
+    padding-bottom: 45px;
+}
+
+.product-content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 15px;
+}
+
+.section-3{
+    background-color: #BE9509;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.section-3 .party{
+    max-width: 1250px;
+    width: 100%;
+   
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+}
+
+.simons img{
+    height: 130px;
+    margin-top: 20px;
+}
+
+.premium-gold img{
+    height: 130px;
+    margin-top: 20px;
+}
+
+.footer-info{
+    padding: 17px 0px;
+}
+
+.footer-info .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+.footer-info .column h2{
+    font-family: OpenSans;
+    font-weight: bold;
+    color: #be9509;
+    margin-bottom: 10px;
+    padding-top: 3px;
+    font-size: 18px;
+}
+
+.footer-info li{
+    list-style: none;
+    padding-bottom: 6px;
+}
+
+.footer-info a{
+    text-decoration: none;
+    color: #BE9509;
+    font-family: OpenSans;
+    font-size: 18px;
+}
+
+.footer-info .column{
+   
+    padding: 0 52px;
+}
+
+.social-img{
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.cont{
+    text-decoration: none;
+    color: #ffc107;
+    font-family: OpenSans;
+    border-top: 1px solid #666;
+    padding: 25px;
+    font-size: 16px;
+}
+
+.last{
+    width: 100%;
+    height: 69px;
+    background-color: #000;
+}
+
+.whatsapp img{
+    width: 60px;
+}
+
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+}
+
+.cart-items{
+    width: 20px;
+    height: 20px;
+    background: red;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -9px;
+    right: 27px;
+    color: white;
+
+}
+
+.products{
+    margin-bottom: 100px;
+}
